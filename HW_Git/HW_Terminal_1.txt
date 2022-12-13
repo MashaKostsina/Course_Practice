@@ -1,0 +1,97 @@
+1) Посмотреть где я
+pwd
+
+2) Создать папку
+mkdir hw_1
+
+3) Зайти в папку
+cd hw_1
+
+4) Создать 3 папки
+mkdir dir_1 dir_2 dir_3
+
+5) Зайти в любую папку
+cd dir_1
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch thefirst.txt
+touch thesecond.txt
+touch thethird.txt
+touch thefirst.json
+touch thesecond.json
+
+7) Создать 3 папки
+mkdir thef thes theth
+
+8) Вывести список содержимого папки
+ls
+ls -a
+ls -la
+ls -al
+
+9) + Открыть любой txt файл
+cat> thesecond.txt
+
+10) + написать туда что-нибудь, любой текст.
+1)the first
+2)the second
+3333333
+4) Abcd
+
+11) + сохранить и выйти.
+ctrl+c
+
+12) Выйти из папки на уровень выше
+cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv /d/тестирование/git/hw_1/dir_1/thefirst.txt /d/тестирование/git/hw_1/dir_1/thef
+mv /d/тестирование/git/hw_1/dir_1/thesecond.json /d/тестирование/git/hw_1/dir_1/thef
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp /d/тестирование/git/hw_1/dir_1/thesecond.txt /d/тестирование/git/hw_1/dir_2
+cp /d/тестирование/git/hw_1/dir_1/thethird.txt /d/тестирование/git/hw_1/dir_2
+
+15) Найти файл по имени
+find /d/тестирование/git/hw_1/dir_1 -name "thesecond.txt"
+ls | grep thesecond
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+tail -f /d/тестирование/git/hw_1/dir_1/thesecond.txt
+ctrl+c
+
+17) вывести несколько первых строк из текстового файла
+head -2 /d/тестирование/git/hw_1/dir_1/thesecond.txt
+
+18) вывести несколько последних строк из текстового файла
+tail -2 /d/тестирование/git/hw_1/dir_1/thesecond.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less +F /d/тестирование/git/hw_1/dir_1/thesecond.txt
+q
+
+20) вывести дату и время
+date
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5006/terminal-hw-request
+curl http://162.55.220.72:5006/get_method?name=Masha&age=25
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+(myscript.txt
+#!/bin/bash
+mkdir hw_1
+cd hw_1
+mkdir dir_1 dir_2 dir_3
+cd dir_1
+touch thefirst.txt
+touch thesecond.txt
+touch thethird.txt
+touch thefirst.json
+touch thesecond.json
+mkdir thef thes theth
+ls -la
+mv /d/тестирование/git/hw_1/dir_1/thefirst.txt /d/тестирование/git/hw_1/dir_1/thef
+mv /d/тестирование/git/hw_1/dir_1/thesecond.json /d/тестирование/git/hw_1/dir_1/thef
+)

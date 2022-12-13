@@ -1,0 +1,229 @@
+1. Создайте текстовый файл, как в первом ДЗ по Terminal.
+2. Сценарий перенесите в этот файл.
+3. На против каждого действия - напишите команду в GitBash
+4. Создать внешний репозиторий c названием JSON.
+5. Клонировать репозиторий JSON на локальный компьютер.
+git clone (ключ ssh)
+
+6. Внутри локального JSON создать файл “new.json”.
+touch new.json	
+
+7. Добавить файл под гит.
+git add new.json
+
+8. Закоммитить файл.
+git commit -m "add new.json"
+
+9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+cat>> new.json
+{"person_surname":"Kostsina",
+"person_name":"Masha",
+"person_age":25,
+"person_pets":0,
+"person_salary":2500}
+
+11. Отправить изменения на внешний репозиторий.
+git commit -am "modify new.json"
+git push
+
+12. Создать файл preferences.json
+touch preferences.json
+
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+cat>> preferences.json
+{"favorite_movie":"Interstellar",
+"favorite_series":"Supernatural",
+"favorite_food":"Pasta",
+"favorite_time_of_year":"Spring",
+"Country_to_visit":"USA"}
+
+14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+cat>> skills.json
+{"checklists":"yes",
+"test_cases":"yes",
+"bug_reports":"yes",
+"work_with_postman":"yes",
+"work_with_sql":"yes",
+"work_with_js":"yes",
+"work_with_gitbash":"yes",
+"work_with_git":"yes"}
+
+15. Отправить сразу 2 файла на внешний репозиторий.
+git add . && git commit -m "added 2 files: preferences.txt and skills.txt"
+
+16. На веб интерфейсе создать файл bug_report.json.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{"Environment":"Windows_10",
+ "Browser":"Chrome_v_103_0_5060_114",
+ "Reporter":"Masha_Kostsina",
+ "Summary":"Checkout_Page_the_cost_changed_after_clicking_on_the_Checkout_button",
+ "STR_1":"Open_the_Shopping_Cart_page",
+ "STR_2":"Select_the_goods",
+ "STR_3":"Click_on_the_Checkout_button",
+ "Result":"The_cost_in_the_Order_Summary_section_is_the_same_as_in_the_Summary_section",
+ "Epected_result":"The_Order_Summary_section_displays_the_changed_cost",
+ "Severity":"Critical",
+ "Priority":"High"}
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+20. Синхронизировать внешний и локальный репозиторий JSON
+git fetch
+git pull
+
+21. Создать внешний репозиторий c названием XML.
+22. Клонировать репозиторий XML на локальный компьютер.
+git clone (ключ ssh)
+
+23. Внутри локального XML создать файл “new.xml”.
+touch new.xml
+
+24. Добавить файл под гит.
+git add new.xml
+
+25. Закоммитить файл.
+git commit -m "add new.xml"
+
+26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+cat>> new.xml
+<?xml version="1.0"?>
+<PERSON>
+    <SURNAME>Kostsina</SURNAME>
+    <NAME>Masha</NAME>
+    <AGE>25</AGE>
+    <PETS>0</PETS>
+    <SALARY>2500</SALARY>
+</PERSON>
+
+28. Отправить изменения на внешний репозиторий.
+git commit -am "modify new.xml"
+git push
+
+29. Создать файл preferences.xml
+touch preferences.xml
+
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+cat>> preferences.xml
+<?xml version="1,0"?>
+<FAVORITE>
+	<MOVIE>Interstellar</MOVIE>
+	<SERIES>Supernatural</SERIES>
+	<FOOD>Pasta</FOOD>
+	<TIME>Spring</TIME>
+	<COUNTRY>USA</COUNTRY>
+</FAVORITE>
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat>> skills.xml
+<?xml version="1.0"?>
+<SKILLS>
+	<CHECKLISTS>Yes</CHECKLISTS>
+	<TESTCASES>Yes</TESTCASES>
+	<BUGREPORTS>Yes</BUGREPORTS>
+	<POSTMAN>Yes</POSTMAN>
+	<SQL>Yes</SQL>
+	<JS>Yes</JS>
+	<GITBASH>Yes</GITBASH>
+	<GIT>Yes</GIT>
+</SKILLS>
+
+32. Сделать коммит в одну строку.
+33. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "add two files"
+git push
+
+34. На веб интерфейсе создать файл bug_report.xml.
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+<?xml version="1.0?>
+<BUGREPORT>
+  <ENVIRONMENT>Windows 10</ENVIRONMENT>
+  <BROWSER>Chrome v.103.0.5060.114</BROWSER>
+  <REPORTER>Masha Kostsina</REPORTER>
+  <SUMMARY>Checkout Page: the cost changed after clicking on the "Checkout" button</SUMMARY>
+  <STR1>Open the "Shopping Cart" page</STR1>
+  <STR2>Select the goods</STR2>
+  <STR3>Click on the "Checkout" button</STR3>
+  <RESULT>The cost in the "Order Summary" section is the same as in the "Summary" section</RESULT>
+  <EXPECTEDRESULT>The "Order Summary" section displays the changed cost</EXPECTEDRESULT>
+  <SEVERITY>Critical</SEVERITY> 
+  <PRIORITY>High</PRIORITY>
+</BUGREPORT>
+
+38. Синхронизировать внешний и локальный репозиторий XML
+git fetch
+git pull
+
+39. Создать внешний репозиторий c названием TXT.
+40. Клонировать репозиторий TXT на локальный компьютер.
+git clone (ключ ssh)
+
+41. Внутри локального TXT создать файл “new.txt”.
+touch new.txt
+
+42. Добавить файл под гит.
+git add new.txt
+
+43. Закоммитить файл.
+git commit -m "add new.txt"
+
+44. Отправить файл на внешний GitHub репозиторий.
+git push
+
+45. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+cat>> new.txt
+Person surname: Kostsina
+Person name: Masha
+Person age: 25
+Person pets: 0
+Person salary: 2500
+
+46. Отправить изменения на внешний репозиторий.
+git commit -am "modify new.txt"
+git push
+
+47. Создать файл preferences.txt
+48. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+cat>> preferences.txt
+Favorite movie: Interstellar
+Favorite series: Supernatural
+Favorite food: Pasta
+Favorite time of year: Spring
+Country to visit: USA
+
+49. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+cat>> skills.txt
+Writing checklists, test cases and bug reports.
+Learning Postman, SQL, JS, Git Bash and Git.
+
+50. Сделать коммит в одну строку.
+51. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "add two files"
+git push
+
+52. На веб интерфейсе создать файл bug_report.txt.
+53. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+54. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+55. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Environment: Windows 10 Home, 64-bit operating system
+Browser: Google Chrome v.103.0.5060.114
+Reporter: Masha Kostsina
+Summary: Checkout Page:  the cost changed after clicking on the "Checkout" button
+STR: 1. Open the "Shopping Cart" page; 2. Select the goods; 3. Click on the "Checkout" button 
+Result: The cost in the "Order Summary" section is the same as in the "Summary" section
+Expected result: The "Order Summary" section displays the changed cost
+Severity: Critical
+Priority: High 
+
+56. Синхронизировать внешний и локальный репозиторий TXT
+git fetch
+git pull

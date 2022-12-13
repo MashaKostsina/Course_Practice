@@ -1,0 +1,14 @@
+#!/bin/bash
+mkdir hw_1
+cd hw_1
+mkdir dir_1 dir_2 dir_3
+cd dir_1
+touch thefirst.txt
+touch thesecond.txt
+touch thethird.txt
+touch thefirst.json
+touch thesecond.json
+mkdir thef thes theth
+ls -la
+mv /d/тестирование/git/hw_1/dir_1/thefirst.txt /d/тестирование/git/hw_1/dir_1/thef
+mv /d/тестирование/git/hw_1/dir_1/thesecond.json /d/тестирование/git/hw_1/dir_1/thef
