@@ -1,0 +1,2 @@
+Writing checklists, test cases and bug reports.
+Learning Postman, SQL, JS, Git Bash and Git.

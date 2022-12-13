@@ -1,0 +1,29 @@
+Identifier: TC1
+
+Priority: High
+
+Module: New User Registration
+
+Preconditions: Open website https://www.aliexpress.com/
+
+Summary: Registering a new user using a mobile phone
+
+Steps:
+	1. Click on the "Register" button in the upper right corner of the site
+	2. Click on the field "Your location"
+	3. Select a country
+	4. Enter the phone number in the "Phone number" field
+	5. Enter the code from SMS in the window that appears
+	6. Enter the password in the appeared field "Password"
+	7. Click on the "Verify phone" button
+
+Expected results:
+	1. The registration window opens
+	2. A drop-down list of countries opens
+	3. The country is displayed in the field "Your location"
+	4. The phone number is displayed in the "Phone number" field
+	5. Code displayed in cells
+	6. The hidden password is displayed in the "Password" field
+	7. A message appears indicating successful registration
+
+Status: Pass

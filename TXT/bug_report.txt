@@ -1,0 +1,9 @@
+Environment: Windows 10 Home, 64-bit operating system
+Browser: Google Chrome v.103.0.5060.114
+Reporter: Masha Kostsina
+Summary: Checkout Page:  the cost changed after clicking on the "Checkout" button
+STR: 1. Open the "Shopping Cart" page; 2. Select the goods; 3. Click on the "Checkout" button 
+Result: The cost in the "Order Summary" section is the same as in the "Summary" section
+Expected result: The "Order Summary" section displays the changed cost
+Severity: Critical
+Priority: High 

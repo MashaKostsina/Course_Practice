@@ -1,0 +1,5 @@
+Person surname: Kostsina
+Person name: Masha
+Person age: 25
+Person pets: 0
+Person salary: 2500
