@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+    <Identifier>1.01</Identifier>
+    <Summary>The "Clear List": the button is not activated after entering a single numeric value</Summary>
+    <Severity>Minor</Severity>
+    <Priority>Medium</Priority>
+    <Environment>Windows 10</Environment>
+    <Precondition>Run the app .......</Precondition>
+    <STR>Steps to reproduce</STR>
+            <first_step>1. "Click the checkbox "Numeric""</first_step>
+            <second_step>2. "Enter the numeric value"</second_step>
+            <third_step>3. "Click the "Enter" button"</third_step>
+    <Result>The "Clear List" button is not activated</Result>
+    <ExpectedResult>The "Clear List" button is activated</ExpectedResult>
+    <Attachments>null</Attachments>
+    <Reproducibility>null</Reproducibility>
+    <Workaround>null</Workaround>
+</bug_report>
